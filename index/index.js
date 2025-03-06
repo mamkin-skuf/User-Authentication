@@ -14,6 +14,8 @@ const SECRET_KEY = 'mySecretKey';
 // In-memory user database (for demo purposes only)
 let users = [];
 
+
+
 // Helper function to generate JWT token
 function generateToken(user) {
     return jwt.sign({ username: user.username }, SECRET_KEY, { expiresIn: '1h' });
