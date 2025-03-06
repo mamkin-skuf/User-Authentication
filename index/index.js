@@ -11,6 +11,8 @@ app.use(express.json());
 const PORT = 3000;
 const SECRET_KEY = 'mySecretKey';
 
+
+
 // In-memory user database (for demo purposes only)
 let users = [];
 
