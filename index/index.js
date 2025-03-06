@@ -19,6 +19,8 @@ function generateToken(user) {
     return jwt.sign({ username: user.username }, SECRET_KEY, { expiresIn: '1h' });
 }
 
+
+
 // Register new user
 app.post('/register', async (req, res) => {
     const { username, password } = req.body;
