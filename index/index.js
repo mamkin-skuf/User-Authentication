@@ -8,8 +8,6 @@ const jwt = require('jsonwebtoken');
 
 app.use(express.json());
 
-
-
 const PORT = 3000;
 const SECRET_KEY = 'mySecretKey';
 
